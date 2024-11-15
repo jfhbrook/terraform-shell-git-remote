@@ -1,5 +1,7 @@
 module {
-  version = "1.0.0"
+  name        = "git-remote"
+  provider    = "shell"
+  version     = "1.0.0"
   description = "Manage a git remote"
 
   scripts {
