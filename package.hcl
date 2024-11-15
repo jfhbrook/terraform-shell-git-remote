@@ -1,4 +1,4 @@
-package {
+module {
   version = "1.0.0"
   description = "Manage a git remote"
 
