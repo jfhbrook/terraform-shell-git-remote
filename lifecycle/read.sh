@@ -4,7 +4,7 @@ set -euo pipefail
 
 RESPONSE="$( \
   echo '{"path": null, "name":null,"url":null}' \
-  | jq --arg path "${path}" \
+  | jq --arg path "$(pwd)" \
        --arg name "${name}" \
         '.name = $name' \
 )"
